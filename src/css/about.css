@@ -1,0 +1,44 @@
+#about-us-container {
+    width: 90%;
+    margin: 72px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#about-us-container .p1 {
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+#about-us-container .left-block {
+    width: 50%;
+}
+
+#about-us-container .right-block {
+    width: max-content;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#about-us-container .right-block .rotated-header {
+    transform: rotate(-90deg);
+    transform-origin: right;
+    height: max-content;
+    width: max-content;
+    margin: 30px 60px 0 0;
+}
+
+.grid-item {
+    width: 200px;
+    height: 200px;
+    background-size: 100%;
+    background-position: 0 16px;
+    text-align: center;
+}
+
+#about-us-container .right-block .img-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}

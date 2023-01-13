@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AstroTimes</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/cover.css">
+    <link rel="stylesheet" href="css/reference.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/media-request.css">
+</head>
+<body>
+<header>
+    <div class="title-container">
+        <a href="#">
+            <img src="assets/AstroTimesLogo.svg" alt="Logo">
+        </a>
+    </div>
+    <div class="header-menu">
+        <a href="#cover-container">SUBSCRIBE</a>
+        <a href="#reference-container">OUR WEBSITE</a>
+        <a href="#about-us-container">ABOUT US & OUR CONTENT</a>
+    </div>
+    <button class="mobile-menu-button" onclick="toggleMenu()">
+        <img src="assets/BurgerMenu.png" alt="BurgerMenu">
+        <img src="assets/X.png" alt="X">
+    </button>
+    <div class="mobile-menu mobile" onclick="toggleMenu()">
+        <a href="#cover-container">SUBSCRIBE</a>
+        <a href="#reference-container">OUR WEBSITE</a>
+        <a href="#about-us-container">ABOUT US &<br>OUR CONTENT</a>
+    </div>
+</header>
+<main>
+    <section id="cover-container">
+        <div class="offer-container">
+            <span class="offer-text">SPECIAL OFFER</span>
+            <h1>Unlimited access to everything about space.</h1>
+            <span class="p1"><span>$10</span> $3.99/month</span>
+            <button>SUBSCRIBE NOW</button>
+            <span class="offer-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+        </div>
+    </section>
+    <section id="reference-container">
+        <h2>Have you seen new <br>Curiosity’s photos of Mars?</h2>
+        <div class="gallery-grid-container">
+            <img src="assets/galleryGridContent/pia21044_orig.jpg" alt="Mars' photo" style="grid-area: a">
+            <img src="assets/galleryGridContent/pia21850-fig1_1785mr009211_sitespherical_wscale.jpg" alt="Mars' photo" style="grid-area: b">
+            <img src="assets/galleryGridContent/pia22066_0.jpg" alt="Mars' photo" style="grid-area: c">
+            <img src="assets/galleryGridContent/pia22326-16.jpg" alt="Mars' photo" style="grid-area: d">
+            <img src="assets/galleryGridContent/pia22486_orig.png" alt="Mars' photo" style="grid-area: e">
+            <img src="assets/galleryGridContent/pia23952.jpg" alt="Mars' photo" style="grid-area: f">
+        </div>
+        <p class="p1">More content on our <a href="https://youtu.be/dQw4w9WgXcQ" TARGET="_blank">website</a>.</p>
+    </section>
+    <section id="about-us-container">
+        <div class="left-block">
+            <h2>Let’s make the acquintance!</h2>
+            <p class="p1">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ligula ullamcorper malesuada proin libero nunc consequat.
+                <br><br>
+                Luctus accumsan tortor posuere ac ut consequat semper. Tempus imperdiet nulla malesuada
+                pellentesque elit.
+            </p>
+        </div>
+        <div class="right-block">
+            <div class="rotated-header">
+                <h3>Take a look at our <br>content:</h3>
+            </div>
+            <div class="img-container">
+                <div class="grid-item" style="background-image: url(assets/man-article.webp)">
+                    <p class="italic-header">Article</p>
+                </div>
+                <div class="grid-item" style="background-image: url(assets/man-book.webp)">
+                    <p class="italic-header">Research</p>
+                </div>
+                <div class="grid-item" style="background-image: url(assets/man-podcast.webp)">
+                    <p class="italic-header">Podcast</p>
+                </div>
+                <div class="grid-item" style="background-image: url(assets/man-video.webp)">
+                    <p class="italic-header">Video</p>
+                </div>
+                <div class="bullets-container">
+                    <div class="bullet bullet-active"></div>
+                    <div class="bullet"></div>
+                    <div class="bullet"></div>
+                    <div class="bullet"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="footer-top">
+        <div style="grid-area: a">
+            <img src="assets/AstroTimesLogo.svg" alt="Logo">
+        </div>
+        <div class="footer-menu p2" style="grid-area: b">
+            <a href="#">Cookies</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Sale</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Group Subscriptions</a>
+        </div>
+        <div class="footer-social" style="grid-area: c">
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="assets/instagram-logo.svg" alt="insta">
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="assets/facebook-logo.svg" alt="fb">
+            </a>
+            <a href="https://twitter.com/" target="_blank">
+                <img src="assets/twitter-logo-silhouette.svg" alt="tw">
+            </a>
+        </div>
+    </div>
+    <p class="p2">Copyright © The AstroTimes Company 2022. All rights reserved.</p>
+</footer>
+</body>
+<script src="script/script.js"></script>
+<script src="script/slider.js"></script>
+</html>
